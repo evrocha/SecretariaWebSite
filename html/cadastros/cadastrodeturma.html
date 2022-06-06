@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Turma</title>
+    <!-- Link estilizações css -->
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/header/header.css">
+    <link rel="stylesheet" href="../../css/cadastros/cadastroturma.css">
+    <link rel="stylesheet" href="../../css/footer/footer.css">
+    <link rel="shortcut icon" href="../../img/icon/shorticon (2).jpg" type="image/x-icon">
+    <!-- Links fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu-content">
+            <div class="menu">
+                <ul class="menu-itens">
+                    <li><a href="../paginainicial.html"><img id="icon-logo" src="../../img/header/icon-senai-logo 1.svg" alt="Senai Logo"></a></li>
+                    <li><a href="#">Cursos</a>
+                                                <!--Submenu Cursos-->
+                            <ul id="first-drop">  
+                                <li><a href="../../html/cursos/cursos-livres.html">Cursos Livres</a></li>
+                                <li><a href="../../html/cursos/cursos-tecnicos.html">Cursos Técnicos</a></li>
+                                <li><a href="../../html/cursos/cursos-ai.html">Aprendizagem Industrial</a></li>
+                                <li><a href="../../html/cursos/cursos-grad.html"> Cursos de Graduação</a></li>
+                                <li><a href="../../html/cursos/cursos-pos.html">Pós-Graduação</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Cadastros</a>  
+                                            <!--Submenu Cadastros-->
+                        <ul>
+                            <li><a href="../../html/cadastros/cadastrodealuno.html">Cadastrar Aluno</a></li>
+                            <li><a href="../../html/cadastros/cadastrodeturma.html">Cadastrar Turma</a></li>
+                            <li><a href="../../html/cadastros/cadastroCurso.html">Cadastrar Curso</a></li>
+                            
+                        </ul>
+
+                    </li>
+                    <li><a href="../Comunicados.html">Comunicados</a></li>
+                    <li><a href="../Estagios/estagio.html">Estágios</a></li>
+                    <li><a href="../BlogdoSecretario.html">Blog do Secretário</a></li>
+                    <li id="funcionario"><a href="#"><img id="icon-usr" src="../../img/header/fotinha.png" alt=""></a>
+                        <ul>
+                            <li>  Laura Fernanda Lopes  </li>
+                            <li>  Nº Pessoal: 22256653  </li>
+                            <li>  Senai "Manuel Garcia Filho"  </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    <div class="curso">
+        <h2> Cadastro de Turma </h2>
+        <h3> Tipo do curso: 
+            <select> 
+                <option> Cursos Livres</option>
+                <option> Curso Técnico</option>
+                <option> Aprendizagem Industrial</option>
+                <option> Graduação</option>
+                <option> Pós-Graduação</option>
+            </select>
+        </h3> 
+        <br>
+        <h3>Eixo tecnológico:
+            <select>
+                <option> Eletroeletrônica - Eletricidade </option>
+                <option> Gestão - Administração Industrial </option>
+                <option> Administração e Gestão </option>
+                <option> Metalmecânica - Metalurgia </option>
+                <option> Tecnologia </option>
+                <option> Fabricação Mecânica e Industrial </option>
+                <option> Logistíca e Transporte </option>
+            </select>
+        </h3>
+        <br>
+        <h3>Nome do curso:
+            <select>
+                <option>Técnico em Desenvolvimento de Sistemas</option> 
+                <option>Técnico em Redes de Computadores</option>
+                <option>Técnico em Informática para Internet</option>
+            </select>
+        </h3>
+        <br>
+        <div class="input">
+        <h3> Período: 
+            <input type="radio" class="radio" name="periodo" value="manha"> Matutino
+            <input type="radio" class="radio" name="periodo" value="tarde"> Vespertino
+            <input type="radio" class="radio" name="periodo" value="noite"> Noturno
+        </h3>
+        </div>
+        <br>
+        <h3> Turma: 
+            <input id="turma" type="text" maxlength="8" placeholder="M1DSI">
+        </h3>
+            <div class="cadastrar">
+                <a href="../Turmas/TurmaM1des.html"><button class="enviar" onclick="alert('Turma cadastrada com sucesso!')"> Cadastrar </button></a>
+            </div>
+    </div>
+   
+
+    </div>
+    <footer>
+        <img src="../../img/footer/logo sem fundo.png" class="imgFooter">
+        <div class="text">
+            <p>
+            <a href="../PoliticadePrivacidade.html"> Política de Privacidade - </a> 
+            <a href="../SegurancaDeDados.html"> Segurança de Dados  </a>  <!-- FAZER A PAGINA-->
+            
+            </p>
+           
+           <p>Todos Direitos Reservados</p> 
+            <p>
+            &copy;B3CGE System - Desenvolvido por Beatriz Holanda
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

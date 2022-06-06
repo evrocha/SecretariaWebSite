@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <!-- Link estilizações css -->
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/header/header.css">
+    <link rel="stylesheet" href="../../css/cadastros/cadastroaluno.css">
+    <link rel="stylesheet" href="../../css/footer/footer.css">
+    <!-- Link script de estados e cidades -->
+    <script src="../../js/cidades.js"></script>
+    <!-- Links fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/icon/shorticon (2).jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="menu-content">
+            <div class="menu">
+                <ul class="menu-itens">
+                    <li><a href="../paginainicial.html"><img id="icon-logo" src="../../img/header/icon-senai-logo 1.svg" alt="Senai Logo"></a></li>
+                    <li><a href="#">Cursos</a>
+                                                <!--Submenu Cursos-->
+                            <ul id="first-drop">  
+                                <li><a href="../../html/cursos/cursos-livres.html">Cursos Livres</a></li>
+                                <li><a href="../../html/cursos/cursos-tecnicos.html">Cursos Técnicos</a></li>
+                                <li><a href="../../html/cursos/cursos-ai.html">Aprendizagem Industrial</a></li>
+                                <li><a href="../../html/cursos/cursos-grad.html"> Cursos de Graduação</a></li>
+                                <li><a href="../../html/cursos/cursos-pos.html">Pós-Graduação</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Cadastros</a>  
+                                            <!--Submenu Cadastros-->
+                        <ul>
+                            <li><a href="../../html/cadastros/cadastrodealuno.html">Cadastrar Aluno</a></li>
+                            <li><a href="../../html/cadastros/cadastrodeturma.html">Cadastrar Turma</a></li>
+                            <li><a href="../../html/cadastros/cadastroCurso.html">Cadastrar Curso</a></li>
+                            
+                        </ul>
+
+                    </li>
+                    <li><a href="../Comunicados.html">Comunicados</a></li>
+                    <li><a href="../Estagios/estagio.html">Estágios</a></li>
+                    <li><a href="../BlogdoSecretario.html">Blog do Secretário</a></li>
+                    <li id="funcionario"><a href="#"><img id="icon-usr" src="../../img/header/fotinha.png" alt=""></a>
+                        <ul>
+                            <li>  Laura Fernanda Lopes  </li>
+                            <li>  Nº Pessoal: 22256653  </li>
+                            <li>  Senai "Manuel Garcia Filho"  </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    <div class="geral">
+        <div class="form">
+            <h1> Cadastro de Aluno</h1>
+            <div class="pessoais">
+                <h2> Dados Pessoais </h2>
+                <label> Nome: </label>
+                <input class="nome" type="text" maxlength="100" placeholder="Ex: Beatriz Holanda da Silva">
+                <br>
+                <label> Data de Nascimento: </label>
+                <input class="data" type="date">
+                <br>
+                <div class="nacionalidade">
+                <label> Nacionalidade: </label>
+                <br>
+                    <label>
+                        <input class="radio" type="radio" name="Nacionalidade" value="Brasileiro(a)"> 
+                        Brasileiro(a)
+                    </label>
+                    <br>
+                    <label>
+                        <input class="radio" type="radio" name="Nacionalidade" value="Brasileiro(a) nascido(a) no exterior"> 
+                            Brasileiro(a) nascido(a) no exterior
+                    </label>
+                    <br>
+                    <label>
+                        <input class="radio" type="radio" name="Nacionalidade" value="Naturalizado"> 
+                            Naturalizado
+                    </label>
+                    <br>
+                    <label>
+                        <input class="radio" type="radio" name="Nacionalidade" value="Estrangeiro">
+                            Estrangeiro
+                    </label>
+                </div>
+                <div class="PCD">
+                <label> Aluno possui alguma deficiência? </label>
+                <br>
+                <input class="radio" type="radio" name="PCD" value="nao"> Não
+                <input class="radio" type="radio" name="PCD" value="sim"> Sim, quais:
+                <br>
+                <input type="checkbox" class="pcd" name="pcd" value="sim"> Visual
+                <input type="checkbox" class="pcd" name="pcd" value="sim"> Motora
+                <input type="checkbox" class="pcd" name="pcd" value="sim"> Mental
+                <input type="checkbox" class="pcd" name="pcd" value="sim"> Auditiva
+                <br>
+                </div>
+                <br>
+                <div class="contato">
+                <label> Cel.: </label>
+                <input type="tel" maxlength="13" placeholder="(11) 95885-1245">
+                <label> E-mail: </label>
+                <input type="email" maxlength="30" placeholder="beatrizholanda@gmail.com">
+                <br>
+                </div>
+            </div>
+            <div class="documentos">
+                <h2> Documentos </h2>
+                <label> CPF: </label>
+                <input class="data" type="text" maxlength="14" placeholder="Ex: 452.695.555-85">
+                <br>
+                <label> RG: </label>
+                <input type="text" maxlength="12" placeholder="Ex: 52.695.555/85">
+                <label> Orgão expeditor: </label>
+                <input type="text" maxlength="3" placeholder="SSP">
+                <label> Data de Emissão: </label>
+                <input type="date">
+                <label> UF: </label>
+                <select>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+            </div>
+            <div class="responsavel">
+                <h2> Dados do Responsável </h2>
+                <label>
+                    <input class="radio" type="radio"> Aluno maior de 18 anos
+                </label>  
+                <br>
+                <label> Nome do Responsável: </label>
+                <input type="text" maxlength="100" placeholder="Ex: Paulo Vieira Gomes">
+                <br>
+                <label> CPF do Responsável: </label>
+                <input type="text" maxlength="14" placeholder="Ex: 452.695.555-85">
+                <br>
+                <label> Parêntesco: </label>
+                <label>
+                    <input class="radio" type="radio" name="parentesco" value="mae">
+                    Mãe
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="parentesco" value="pai">
+                    Pai
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="parentesco" value="avó">
+                    Avó
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="parentesco" value="avo">
+                    Avô
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="parentesco" value="outro">
+                    Outro
+                </label>
+                <input type="text" maxlength="100" placeholder="Qual?">
+                <br>
+                <label> Cel. Responsável: </label>
+                <input type="tel" maxlength="13" placeholder="(11) 95885-1245">
+                <br>
+            </div>
+            <div class="endereco">
+                <h2> Endereço </h2>
+                <label> Endereço: </label>
+                <input type="text" maxlength="100" placeholder="Ex: Rua Perdizes ">
+                <label> Cep: </label>
+                <input type="text" maxlength="9" placeholder="Ex: 09958-200 ">
+                <br>
+                <label> Nº: </label>
+                <input type="text" maxlength="8" placeholder="Ex: 452">
+                <label> Complemento: </label>
+                <input type="text" maxlength="10" placeholder="Ex: Bloco B Apto 25" >
+                <br>
+                <label> Selecione o Estado: </label>
+                <select id="estado" onchange="buscaCidades(this.value)">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+                <label> Selecione o Município: </label>
+                <select id="cidade">
+                </select>
+                <label> Bairro: </label>
+                <input type="text" maxlength="30" placeholder="Ex: Canhema ">
+            </div>
+            <div class="curso">
+                <h2> Curso </h2>
+                <label class="label1"> Tipo do curso: </label>
+                <select>
+                    <option> Cursos Livres</option>
+                    <option> Curso Técnico</option>
+                    <option> Aprendizagem Industrial</option>
+                    <option> Graduação</option>
+                    <option> Pós-Graduação</option>
+                </select>
+                <label> Eixo tecnológico: </label>
+                <select>
+                    <option> Eletroeletrônica - Eletricidade </option>
+                    <option> Gestão - Administração Industrial </option>
+                    <option> Administração e Gestão </option>
+                    <option> Metalmecânica - Metalurgia </option>
+                    <option> Tecnologia </option>
+                    <option> Fabricação Mecânica e Industrial </option>
+                    <option> Logistíca e Transporte </option>
+                </select>
+                <br>
+                <label> Nome do curso: </label>
+                <select class="nomecurso">
+                    <option>Técnico em Desenvolvimento de Sistemas</option> 
+                    <option>Técnico em Redes de Computadores</option>
+                    <option>Técnico em Informática para Internet</option>
+                </select> 
+                <br>
+                <label> Período: </label>
+                <input type="radio" class="radio" name="periodo" value="manha"> Matutino
+                <input type="radio" class="radio" name="periodo" value="tarde"> Vespertino
+                <input type="radio" class="radio" name="periodo" value="noite"> Noturno
+                <label> Turma: </label>
+                <select>
+                    <option> M1DSI </option>
+                </select>
+
+            </div>
+            <div class="cadastrar">
+                <a href="../alunos.html"><button class="enviar" onclick="alert('Aluno cadastrado com sucesso!')"> Cadastrar </button> </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="../../img/footer/logo sem fundo.png" class="imgFooter">
+        <div class="text">
+            <p>
+            <a href="../PoliticadePrivacidade.html"> Política de Privacidade - </a> 
+            <a href="../SegurancaDeDados.html"> Segurança de Dados  </a>  <!-- FAZER A PAGINA-->
+            
+            </p>
+           
+           <p>Todos Direitos Reservados</p> 
+            <p>
+            &copy;B3CGE System - Desenvolvido por Beatriz Holanda
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

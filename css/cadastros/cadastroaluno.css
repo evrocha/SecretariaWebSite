@@ -1,0 +1,89 @@
+.geral{
+    width: 1220px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-color: black;
+    border: 2px solid;
+    padding-left: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 180px;
+}
+h1{
+    margin-top: 5px;
+    text-align: center;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color:rgb(80, 80, 80);
+    /* text-align: center; */
+
+}.form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.geral input{
+    border-color: var(--gray);
+    border: 1px solid; 
+    font-size: 18px;
+    height: 28px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+select{
+    font-size: 18px;
+}
+option{
+    border-color: var(--gray);
+    border: 1px solid; 
+    height: 28px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.nome{
+    width: 800px;
+}
+.nacionalidade{
+    margin-left: 600px;
+}
+.radio{
+    width: 20px;
+}
+.PCD{
+    margin-top: -150px;
+}
+.pcd{
+    width: 20px;
+}
+.contato{
+    margin-top: 30px;
+}
+.cadastrar{
+    
+    margin: 0 auto;
+    width: 250px;
+}
+.nomecurso{
+    margin-top: 20px;
+}
+a{
+    color: inherit;
+}
+.enviar{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: var(--strong_red);
+    color: white;
+}
+.enviar:hover{
+    background-color: rgb(160, 1, 1);
+    transition: background-color 1.5s;
+}
+

@@ -1,0 +1,51 @@
+.curso{
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-color: black;
+    border: 2px solid;
+    padding-left: 50px;
+    margin-top: 100px; 
+    font-size: 25px;
+    margin-bottom: 229px;
+    /* text-align: center; */
+}
+select{
+    margin-top: 5px;
+    font-size: 18px;
+}
+h2{
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h3{
+    color: rgb(80, 80, 80);
+}
+.input{
+    height: 8px;
+    margin-top: -5px;
+    margin-bottom: 18px;
+}
+.cadastrar{
+    margin: 0 auto;
+    width: 250px;
+}
+#turma{
+    font-size: 18px;
+    width: 130px;
+}
+.enviar{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: var(--strong_red);
+    color: white;
+}
+.enviar:hover{
+    background-color: rgb(160, 1, 1);
+    transition: background-color 1.5s;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Curso</title>
+    <!-- Link estilizações css -->
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/header/header.css">
+    <link rel="stylesheet" href="../../css/cadastros/cadastroCurso.css">
+    <link rel="stylesheet" href="../../css/footer/footer.css">
+    <!-- Links fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/icon/shorticon (2).jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="menu-content">
+            <div class="menu">
+                <ul class="menu-itens">
+                    <li><a href="../paginainicial.html"><img id="icon-logo" src="../../img/header/icon-senai-logo 1.svg" alt="Senai Logo"></a></li>
+                    <li><a href="#">Cursos</a>
+                                                <!--Submenu Cursos-->
+                            <ul id="first-drop">  
+                                <li><a href="../../html/cursos/cursos-livres.html">Cursos Livres</a></li>
+                                <li><a href="../../html/cursos/cursos-tecnicos.html">Cursos Técnicos</a></li>
+                                <li><a href="../../html/cursos/cursos-ai.html">Aprendizagem Industrial</a></li>
+                                <li><a href="../../html/cursos/cursos-grad.html"> Cursos de Graduação</a></li>
+                                <li><a href="../../html/cursos/cursos-pos.html">Pós-Graduação</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Cadastros</a>  
+                                            <!--Submenu Cadastros-->
+                        <ul>
+                            <li><a href="../../html/cadastros/cadastrodealuno.html">Cadastrar Aluno</a></li>
+                            <li><a href="../../html/cadastros/cadastrodeturma.html">Cadastrar Turma</a></li>
+                            <li><a href="../../html/cadastros/cadastroCurso.html">Cadastrar Curso</a></li>
+                            
+                        </ul>
+
+                    </li>
+                    <li><a href="../Comunicados.html">Comunicados</a></li>
+                    <li><a href="../Estagios/estagio.html">Estágios</a></li>
+                    <li><a href="../BlogdoSecretario.html">Blog do Secretário</a></li>
+                    <li id="funcionario"><a href="#"><img id="icon-usr" src="../../img/header/fotinha.png" alt=""></a>
+                        <ul>
+                            <li>  Laura Fernanda Lopes  </li>
+                            <li>  Nº Pessoal: 22256653  </li>
+                            <li>  Senai "Manuel Garcia Filho"  </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+<!-- no final, deixar um botão INSERIR CURSOS-->
+    <main>
+            <h1 id="top-title">Cadastro de Curso</h2>
+            
+           
+                <div class="geral">
+                    <h2>Tipo de curso: 
+                    
+                    <select name="courseType" class="courseType"> <!-- tec, ai, pos-->
+                    
+                    <option value="">Cursos Livres</option>
+                    <option value="">Curso Técnico</option>
+                    <option value="">Aprendizagem Industrial</option>
+                    <option value="">Graduação</option>
+                    <option value="">Pós-Graduação</option>
+                    
+                    </select>
+                    </h2>
+                </div>
+
+                <div class="geral">
+                    <h2>Eixo: 
+                    <select name="courseArea" class="courseArea"> <!-- tec, admin, mec-->
+                    
+                        <option value="">Eletroeletrônica - Eletricidade</option>
+                        <option value="">Gestão - Administração Industrial
+                        </option>
+                        <option value="">Administração e Gestão
+                        </option>
+                        <option value="">Graduação</option>
+                        <option value="">Metalmecânica - Metalurgia
+                        </option>
+                        <option value="">Tecnológica
+                        </option>
+                        <option value="">Fabricação Mecânica e Industrial
+                        </option>
+                        <option value="">Logistíca e Transporte
+                        </option>
+                        
+                    </select>
+                    </h2>
+                </div>
+
+                <div class="geral">
+                    <label for=""> <h2>Nome do curso:</h2></label>
+
+                    <input class="nameCourse" type="text" maxlength="150" placeholder="Ex: Técnico em Desenvolvimento de Sistemas">
+                </div>
+
+                <div class="qtdStd" id="geral">
+                    <h2>Quantidade de Alunos
+                        <select name="courseArea" class="courseArea"> <!-- tec, admin, mec-->
+                
+                            <option value="">5</option>
+                            <option value="">10
+                            </option>
+                            <option value="">15
+                            </option>
+                            <option value="">20</option>
+                            <option value="">25
+                            </option>
+                            <option value="">30
+                            </option>
+                            <option value="">35
+                            </option>
+                            <option value="">40
+                            </option>
+                            
+                        </select>
+                    </h2>
+                </div>
+
+                <div class="qtdStd" id="geral">
+                        <h2>Quantidade de Instrutores
+                            <select name="courseArea" class="courseArea"> <!-- tec, admin, mec-->
+                    
+                                <option value="">1</option>
+                                <option value="">2
+                                </option>
+                                <option value="">3
+                                </option>
+                                <option value="">4</option>
+                                <option value="">5
+                                </option>             
+                            </select>
+                        </h2>
+                </div>
+
+                <div class="qtdStd" id="geral">
+                    <h2>Quantidade de Semestres
+                        <select name="courseArea" class="courseArea"> <!-- tec, admin, mec-->
+                
+                            <option value="">1</option>
+                            <option value="">2
+                            </option>
+                            <option value="">3
+                            </option>
+                            <option value="">4
+                            </option>
+                            <option value="">5
+                            </option>   
+                            <option value="">6
+
+                            </option>          
+                        </select>
+                    </h2>
+                </div>
+               
+                <div class="uploadContainer">
+                    <p>Envie o arquivo das Competências necessárias</p>
+                    <input type="file">
+                </div>
+
+                <div class="sendCourse">
+                   <a href="../cursos/cursos-livres.html"> <button onclick="alert('Curso cadastrado com sucesso!')" class="btnSendCourse"><h3>Cadastrar Curso</h3></button></a>
+                </div>
+
+            
+    </main>
+
+    <footer>
+        <img src="../../img/footer/logo sem fundo.png" class="imgFooter">
+        <div class="text">
+            <p>
+            <a href="../PoliticadePrivacidade.html"> Política de Privacidade - </a> 
+            <a href="../SegurancaDeDados.html"> Segurança de Dados  </a>  <!-- FAZER A PAGINA-->
+            
+            </p>
+           
+           <p>Todos Direitos Reservados</p> 
+            <p>
+            &copy;B3CGE System - Desenvolvido por Emanuel Rocha
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

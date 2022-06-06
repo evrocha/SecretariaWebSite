@@ -1,0 +1,94 @@
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:repeat(1,170px);
+    margin: 0 auto;
+}
+ .title-top h1{
+     text-align: center; 
+     margin-top: 30px;
+     margin-bottom: 20px;
+ }
+.img-logo{
+    margin-left: 80px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+} 
+ .container img{
+     width: 120px;
+     height: 120px;
+ }
+ .container input{
+     width: 90%;
+     height: 120px;
+ }
+ .container input{
+     border: 2px solid;
+ }
+.input-blog{
+    width: 1500px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+/*estilização do comentario Luiza*/
+.container1 h2{
+    text-align: center;
+    margin-top: -135px;
+    margin-left: 200px;
+}
+
+.container1 img{
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+}
+
+.p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/*estilização do input abaixo de luiza*/
+
+.inputlu {
+    width: 1500px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:repeat(1,170px);
+    border: 2px solid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: 85px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: black;
+}
+.Laura{
+    width: 1500px;
+    margin-left: 260px;
+    margin-bottom: 25px;
+}
+.enviar{
+    position: relative;
+    margin-top: -200px;
+    margin-left: 1490px;
+    width: 100px;
+    height: 60px; 
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: var(--strong_red);
+    color: white;
+}
+.enviar:hover{
+    background-color: rgb(160, 1, 1);
+    transition: background-color 1.5s;
+}
+
+

@@ -1,0 +1,146 @@
+.corpo1 {
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 27px;
+    border-radius: 15px;
+    height: 700px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-color: black;
+}
+
+h1 {
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.article-img{
+    height: 211px;
+    width: 138px;
+    object-fit: cover;
+    align-items: center;
+    margin-right: 70px;
+    border-radius: 15px;
+} 
+
+.corpo2 {
+    width: 660px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1100px;
+    margin-top: -700px;
+    border-radius: 15px;
+    height: 380px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.article-title1{
+    position: absolute;
+    margin-top: 240px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title2{
+    position: absolute;
+    margin-top: 260px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title7{
+    position: absolute;
+    margin-top: 280px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title3{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title4{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title8{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title5{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 420px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title6{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 420px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title9{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 420px;
+    text-align: center;
+    padding: 10px;
+}
+
+.article-title12{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.corpo3 { 
+    text-align: center;
+    
+}
+.corpo3 button{
+    font-size: 28px;
+    margin-left: 980px;
+    margin-top: 100px;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: var(--strong_red);
+    color: white;
+}
+
+.corpo4 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.corpo4 button{
+    font-size: 28px;
+    margin-left: 980px;
+    margin-top: 70px;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: var(--strong_red);
+    color: white;
+}
+a{
+    color: inherit;
+}

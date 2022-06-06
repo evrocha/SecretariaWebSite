@@ -1,0 +1,17 @@
+*{
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* Criação de variáveis*/
+html{
+/* Criação de variáveis cor*/
+    --strong_red: #ac0404d0;
+    --gray: #DDDDDD;
+    --red:#c70404e3;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}

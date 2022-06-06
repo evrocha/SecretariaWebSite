@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <!-- Link estilizações css -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="stylesheet" href="../css/PaginaInicial/inicial.css">
+    <link rel="shortcut icon" href="../img/icon/shorticon (2).jpg" type="image/x-icon">
+
+    <!-- Links fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu-content">
+            <div class="menu">
+                <ul class="menu-itens">
+                    <li><a href="paginainicial.html"><img id="icon-logo" src="../img/header/icon-senai-logo 1.svg" alt="Senai Logo"></a></li>
+                    <li><a href="#">Cursos</a>
+                                                <!--Submenu Cursos-->
+                            <ul id="first-drop">  
+                                <li><a href="../html/cursos/cursos-livres.html">Cursos Livres</a></li>
+                                <li><a href="../html/cursos/cursos-tecnicos.html">Cursos Técnicos</a></li>
+                                <li><a href="../html/cursos/cursos-ai.html">Aprendizagem Industrial</a></li>
+                                <li><a href="../html/cursos/cursos-grad.html"> Cursos de Graduação</a></li>
+                                <li><a href="../html/cursos/cursos-pos.html">Pós-Graduação</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Cadastros</a>  
+                                            <!--Submenu Cadastros-->
+                        <ul>
+                            <li><a href="cadastros/cadastrodealuno.html">Cadastrar Aluno</a></li>
+                            <li><a href="cadastros/cadastrodeturma.html">Cadastrar Turma</a></li>
+                            <li><a href="cadastros/cadastroCurso.html">Cadastrar Curso</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="Comunicados.html">Comunicados</a></li>
+                    <li><a href="Estagios/estagio.html">Estágios</a></li>
+                    <li><a href="BlogdoSecretario.html">Blog do Secretário</a></li>
+                    <li id="funcionario"><a href="#"><img id="icon-usr" src="../img/header/fotinha.png" alt=""></a>
+                        <ul>
+                            <li>  Laura Fernanda Lopes  </li>
+                            <li>  Nº Pessoal: 22256653  </li>
+                            <li>  Senai "Manuel Garcia Filho"  </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <h2 id="txt-top">Nossa Secretaria:</h2>
+            <img src="../img/PaginaInicial/SecretariaPic.jpg" alt="Imagem da Secretaria do SENAI" id="fotoSecretaria">
+
+            <!--  Cursos-->
+            <div class="circle" id="firstCircle">
+                <a href="../html/cursos/cursos-tecnicos.html"><img src="../img/PaginaInicial/cursoIcon.png" alt=""></a>
+            </div>
+            
+            <div class="textInCircle" id="firstCircleText">
+                <a href="../html/cursos/cursos-tecnicos.html"><h3>Cursos</h3></a>
+            </div>
+            
+            <!--  Cadastros-->
+            <div class="circle" id="secCircle">
+                <a href="../html/cadastros/cadastroCurso.html"><img src="../img/PaginaInicial/cadastroIcon.png" alt=""></a>
+            </div>
+            
+            <div class="textInCircle" id="secCircleText">
+                <a href="../html/cadastros/cadastroCurso.html"><h3>Cadastros</h3></a>
+            </div>
+  
+            <!--  Comunicados-->
+            <div class="circle" id="thCircle">
+                <a href="../html/Comunicados.html"><img src="../img/PaginaInicial/comunicadoIcon.png" alt=""></a>
+            </div>
+            
+            <div class="textInCircle" id="thCircleText">
+                <a href="../html/Comunicados.html"><h3>Comunicado</h3></a>
+            </div>
+
+            <!-- Estágios-->
+            <div class="circle" id="fourCircle">
+                <a href="../html/Estagios/estagio.html"><img src="../img/PaginaInicial/estagioIcon.png" alt=""></a>
+            </div>
+            
+            <div class="textInCircle">
+                <a href="../html/Estagios/estagio.html"><h3>Estágios</h3></a>
+            </div>
+            
+<!--INICIO CARROSSEL-->
+        <div class="contentSlideShow">
+
+            <div class="slides"> <!--inicio do slideshow-->
+                <input type="radio" name="slide" id="slide1" checked> <!--um input radio p cada img-->
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+            
+
+                <div class="slide s1" id="slide-news1">
+                    <img src="../img/PaginaInicial/news1.png" alt="">
+                </div>
+
+                <div class="slide" id="slide-news2">
+                    <img src="../img/PaginaInicial/news2.png" alt="">
+                </div>
+
+                <div class="slide" id="slide-news3">
+                    <img src="../img/PaginaInicial/news3.png" alt="">
+                </div>
+
+                <div class="slide" id="slide-news4">
+                    <img src="../img/PaginaInicial/news4.png" alt="">
+                </div>
+            </div>
+
+            <div class="navegation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+            </div>
+        </div>
+
+
+        </div>   
+    </main>
+
+   <footer>
+    <img src="../img/footer/logo sem fundo.png" class="imgFooter">
+    <div class="text">
+        <p>
+            <a href="PoliticadePrivacidade.html"> Política de Privacidade - </a> 
+                <a href="SegurancaDeDados.html"> Segurança de Dados  </a>
+        
+        </p>
+       
+       <p>Todos Direitos Reservados</p> 
+        <p>
+        &copy;B3CGE System - Desenvolvido por Emanuel Rocha
+        </p>
+    </div>
+    </footer>
+</body>
+</html>

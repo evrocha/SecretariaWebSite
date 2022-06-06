@@ -1,0 +1,148 @@
+main{
+    margin-bottom: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 287.5px); /*pegar o tamanho da maior img do banner e dividir por 4
+    4 pq dps usarei os   4 circles icons*/
+    grid-template-rows: repeat(auto);
+    /* position: relative; */
+    column-gap:0px;
+    row-gap: 15px; /*espaçamento entre as linhas*/
+    margin: 0 auto;
+    width: 100%; 
+    justify-content: center;  
+}
+#txt-top{
+    margin-top: 40px;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    text-align: center;
+
+    /* padding-left: 75px; */
+}
+#fotoSecretaria{ 
+    grid-row: 2/3;
+    grid-column: 1/4;
+
+    margin-top: 30px;
+
+    /*proporção 4/3*/
+    width: 1150px;
+    height: 750px;
+  
+    border: 2px solid black;
+}
+
+/*classe q organiza a div q vai conter as circles icons*/
+.circle{
+/*deixa centralizado*/
+    margin: 0 auto;
+
+    margin-top: 30px;
+    background-color:var(--red) ;
+    width: 143.75px;
+    height: 143.75px;
+    
+    border: 1px solid black;
+    border-radius: 90px;
+  
+    grid-row: 3/4;
+ 
+}
+
+#firstCircle{    
+    grid-column: 1/2;
+}
+
+/*IDS q coordenam a coluna de acordo c a img do  texto*/
+#firstCircleText{
+    grid-column: 1/2;
+}
+
+.circle img{
+
+    margin-left: 34.5px;
+    margin-top: 34.5px;
+    width: 72px; 
+    height: 72px;
+}
+
+/*classe que deixa os textos na linha correta*/
+.textInCircle{
+    grid-row: 4/5;
+    text-align: center;
+}
+.contentSlideShow{
+    grid-row: 5/6;
+    grid-column: 1/5;
+    width: 1150px;
+    height: 650px;
+
+    margin-top: 30px;
+    
+    border: 5px solid black;
+
+    overflow: hidden;
+}
+
+.navegation{
+    position: absolute;
+    /* distancia do posicionamento da bar nav */
+    top: 1850px;
+ 
+    left: 58%;
+    transform: translate(-100%);
+    display: flex;
+    grid-row: 6/7;
+    grid-column: 1/5;
+}
+.bar{
+    width: 70px;
+    height: 17px;
+
+    border: 3px solid rgb(0, 0, 0);
+
+    background-color:  var(--red);
+
+    margin: 6px; /*faz o margin entre bar*/
+   
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.bar:hover{
+    background-color: var(--gray);
+}
+
+.slides input{
+    display: none;
+}
+.slides{
+    display: flex; /*faz ccom q as imagens fiquem lado a lado no div slideshow*/
+    width: 410%;
+    height: 100%;   
+    
+}
+
+.slide{
+    display: flex;
+    width: 25%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}

@@ -1,0 +1,130 @@
+
+h1 {
+    margin-left: 250px;
+    margin-top: -60px;
+
+}
+.fotonome{
+    width: 20px;
+    margin: 0 auto;
+}
+#fotoaluno{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 80px;
+}
+.corpo1 {
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+    height: 600px;
+    border: 1px solid;
+    border-color: black;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.text{
+    padding-left: 10px;
+}
+
+
+.imp1{
+border-radius: 35px;
+padding: 15px;
+ width: 150px;
+background-color:var(--strong_red) ;
+color:aliceblue;
+font-size: 15px;
+top: 100px;
+left: 150px;
+/* bottom: 10px; */
+position: relative;
+/*margin: 90px 20px 25px 300px;*/
+}
+.imp2{
+    border-radius: 35px;
+padding: 20px;
+ width: 200px;
+background-color:var(--strong_red) ;
+color:aliceblue;
+font-size: 20px;
+top: 900px;
+left: 200px;
+/* bottom: 10px; */
+position: absolute;
+/*margin: 90px 20px 25px 300px;*/
+}
+.corpo2 {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 1090px;
+    margin-top: -670px;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid;
+    text-align: center;
+}
+.corpo3{
+    width: 340px;
+    background-color: rgb(255, 255, 255);
+   position: relative;
+    /* left: 1120px; */
+    top: 80px;
+    margin-left: 1120px;
+    
+    height: 90px;
+    text-align: center;
+}
+.img{
+    height: 100px;
+    width: 450px;
+    margin-right: 50px;
+    margin: -8px 50px  85px -30px;
+    border: 1px solid;
+    border-color: black;
+   
+}
+/* .cuadra{
+    
+    background-color: rgb(255, 255, 255);
+    /* margin-left: 1?20px;  
+    position: relative;
+    /* left: 1090px; 
+    top: 210px;
+    height: 100px;
+    width: 450px;
+    height: 90px;
+ 
+} */
+#Observações{
+    width: 450px;
+    height: 90px;
+    text-align: center;
+    border: 1px solid;
+    position: relative;
+    left: 1100px;
+    top: 150px;
+    border-color:darkgrey;
+    /* margin: 100px 50px 50px 1090px; */
+}
+
+
+.rojo{
+    border-radius: 50px;
+            padding:25px;
+            width: 300px;
+            top: 200px;
+            left: 430px;
+            text-align: center;
+            background-color:var(--strong_red) ;
+            color:aliceblue;
+            position: relative;
+           /* top: 300px;
+            left: 690px;*/
+            margin: 0px 10px 50px 740px;
+            font-size: 15px;
+          
+}

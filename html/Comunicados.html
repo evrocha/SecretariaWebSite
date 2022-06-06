@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicados</title>
+    <link rel="stylesheet" href="../css/comunicados/Comunicados.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/header/header.css">
+    <link rel="stylesheet" href="../css/footer/footer.css">
+    <link rel="shortcut icon" href="../img/icon/shorticon (2).jpg" type="image/x-icon">
+
+    <!-- Links fonte google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu-content">
+            <div class="menu">
+                <ul class="menu-itens">
+                    <li><a href="paginainicial.html"><img id="icon-logo" src="../img/header/icon-senai-logo 1.svg" alt="Senai Logo"></a></li>
+                    <li><a href="#">Cursos</a>
+                                                <!--Submenu Cursos-->
+                            <ul id="first-drop">  
+                                <li><a href="../html/cursos/cursos-livres.html">Cursos Livres</a></li>
+                                <li><a href="../html/cursos/cursos-tecnicos.html">Cursos Técnicos</a></li>
+                                <li><a href="../html/cursos/cursos-ai.html">Aprendizagem Industrial</a></li>
+                                <li><a href="../html/cursos/cursos-grad.html"> Cursos de Graduação</a></li>
+                                <li><a href="../html/cursos/cursos-pos.html">Pós-Graduação</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Cadastros</a>  
+                                            <!--Submenu Cadastros-->
+                        <ul>
+                            <li><a href="cadastros/cadastrodealuno.html">Cadastrar Aluno</a></li>
+                            <li><a href="cadastros/cadastrodeturma.html">Cadastrar Turma</a></li>
+                            <li><a href="cadastros/cadastroCurso.html">Cadastrar Curso</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="Comunicados.html">Comunicados</a></li>
+                    <li><a href="Estagios/estagio.html">Estágios</a></li>
+                    <li><a href="BlogdoSecretario.html">Blog do Secretário</a></li>
+                    <li id="funcionario"><a href="#"><img id="icon-usr" src="../img/header/fotinha.png" alt=""></a>
+                        <ul>
+                            <li>  Laura Fernanda Lopes  </li>
+                            <li>  Nº Pessoal: 22256653  </li>
+                            <li>  Senai "Manuel Garcia Filho"  </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<div class="geraltotal">
+<div class="title">
+    <h1>Comunicados</h1>
+</div>
+
+<div class="Mensagem">
+<label for="w3review"><h2>Mensagem</h2></label>
+    
+        <textarea maxlength="250" rows="8" cols="60" name="text" class="caixa"></textarea>
+</div>           
+
+    <div>
+
+    <div class="geral"> 
+        
+        <button class="btton1"><h3>Remetente: <br><br>Laura Fernanda Lopes<br><h4>(Nome do funcionário)</h4></button></h3>
+             
+    </div>
+
+
+
+    <div class="bloco">
+      <div class="centro"><h2>Enviar para:</h2></div><button class="btton2"><h3>Informe o tipo de curso: </h3><select name="courseType" class="courseType"> <!-- tec, ai, pos-->
+            
+        <option value="">Cursos Livres</option>
+        <option value="">Curso Técnico</option>
+        <option value="">Aprendizagem Industrial</option>
+        <option value="">Graduação</option>
+        <option value="">Pós-Graduação</option>
+    
+    </select>
+
+    <h3>Informe o eixo: </h3> <select name="courseArea" class="courseArea"> <!-- tec, admin, mec-->
+                    
+        <option value="">Eletroeletrônica - Eletricidade</option>
+        <option value="">Gestão - Administração Industrial
+        </option>
+        <option value="">Administração e Gestão
+        </option>
+        <option value="">Graduação</option>
+        <option value="">Metalmecânica - Metalurgia
+        </option>
+        <option value="">Tecnológica
+        </option>
+        <option value="">Fabricação Mecânica e Industrial
+        </option>
+        <option value="">Logistíca e Transporte
+        </option>
+        
+    </select>
+    </h2></button>
+</div>
+        </button>
+            </div>                       
+
+  
+
+    <div class="bloco2">
+        <div class="centro2"><h2>Tema</h2></div><button class="btton3"><h3>
+            <textarea id="w3review" name="text" rows="8" cols="35" maxlength="100">
+                Digite:
+                </textarea>
+        </h2></h3></button>
+    </div>
+</div>
+    <footer>
+        <img src="../img/footer/logo sem fundo.png" class="imgFooter">
+        <div class="text">
+            <p>
+                <a href="PoliticadePrivacidade.html"> Política de Privacidade - </a> 
+                <a href="SegurancaDeDados.html"> Segurança de Dados  </a>
+            
+            </p>
+           
+           <p>Todos Direitos Reservados</p> 
+            <p>
+            &copy;B3CGE System - Desenvolvido por Bruno Torres
+            </p>
+        </div>
+    </footer>
+
+        
+</body>
+</html>

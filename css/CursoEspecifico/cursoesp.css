@@ -1,0 +1,71 @@
+
+html{
+/* Criação de variáveis cor*/
+    --orange: #FFA86B;
+    --gray: #DDDDDD;
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+table{
+    margin: auto;
+}
+.corpo1 {
+    width: 500px;
+    background-color: var(--gray);
+    margin-left: 27px;
+    border-radius: 15px;
+    height: 700px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.corpo2 {
+    width: 500px;
+    background-color: var(--gray);
+    margin-left: 127px;
+    border-radius: 15px;
+    height: 700px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.corpo4 {
+    width: 300px;
+    background-color: var(--gray);
+    margin-left: 127px;
+    border-radius: 150px;
+    height: 95px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.corpo4 li{
+    font-size: 20px;
+
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text{
+   padding-bottom: 15px;
+
+}
+
+a{
+    color: inherit;
+}
+
+.ul1{
+    list-style: none;
+}
